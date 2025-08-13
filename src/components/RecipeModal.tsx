@@ -27,7 +27,7 @@ export default function RecipeModal({
   return (
     <div
       className={`fixed inset-0 bg-gray-200/50 flex items-center justify-center p-4 transition-all duration-300 ${
-        show ? 'backdrop-blur-sm' : 'backdrop-blur-0'
+        show ? 'blurred' : 'no-blur'
       }`}
     >
       <div

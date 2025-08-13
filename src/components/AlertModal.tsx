@@ -21,7 +21,7 @@ export default function AlertModal({
   };
 
   return (
-    <div className="fixed inset-0 bg-black/40 backdrop-blur-sm flex items-center justify-center p-4 transition-opacity duration-300 ease-out">
+    <div className="fixed inset-0 bg-black/40 blurred flex items-center justify-center p-4 transition-opacity duration-300 ease-out">
       <div
         className={`bg-white rounded-lg shadow-lg max-w-sm w-full p-6 transform transition-all duration-300 ease-out
         ${
