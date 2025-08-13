@@ -32,7 +32,7 @@ export default function RecipeList({
 
   if (recipes.length === 0) {
     return (
-      <p className="text-center text-gray-500 col-span-full">
+      <p className="text-center text-orange-950 col-span-full">
         No recipes found. Search for something!
       </p>
     );
